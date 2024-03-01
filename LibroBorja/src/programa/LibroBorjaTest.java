@@ -19,7 +19,7 @@ class LibroBorjaTest {
 		l1.setTitulo("LIBRO DE EJERCICIOS");
 		assertEquals("LIBRO DE EJERCICIOS",l1.getTitulo());
 	}
-
+	//Comentario de prueba.
 	@Test
 	void testAgregarPaginas() {
 		LibroBorja l1 = new LibroBorja ("LIBRO DE EJEMPLO", 150);
