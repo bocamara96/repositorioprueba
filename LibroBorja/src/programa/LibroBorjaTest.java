@@ -12,7 +12,7 @@ class LibroBorjaTest {
 		String titulo = l1.getTitulo();
 		assertEquals("LIBRO DE EJEMPLO",l1.getTitulo());
 	}
-	
+	//Comentario de prueba 1
 	@Test
 	void testSetTitulo() {
 		LibroBorja l1 = new LibroBorja ("LIBRO DE EJEMPLO", 150);
